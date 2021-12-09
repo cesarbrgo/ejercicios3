@@ -5,6 +5,10 @@
 
 
 def main():
+    frase = 'Practica els problemes de List comprehensions per a ser més Pythonic!'
+    vocals = [x for x in frase if not x in 'aeiou']
+    print(vocals)
+
 
 if __name__ == '__main__':
     main()
