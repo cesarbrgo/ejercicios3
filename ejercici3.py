@@ -5,6 +5,8 @@
 
 
 def main():
+    rango = [i for i in range(0,1001,1)]
+    numero_sis= [i for i in rango if i in '6']
 
 if __name__ == '__main__':
     main()
