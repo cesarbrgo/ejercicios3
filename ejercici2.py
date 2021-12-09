@@ -5,7 +5,7 @@
 
 
 def main():
-    parells = [x for x in range(0, 31, 2)]
+    parells = [x for x in range(0, 1001) if x % 8 == 0]
     print(parells)
 
 

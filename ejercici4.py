@@ -5,9 +5,10 @@
 
 
 def main():
-    parells = [x for x in range(0, 31, 2)]
-    print(parells)
-
+    frase = 'Practica els problemes de List comprehensions per a ser més Pythonic!'
+    espais=[x for x in frase if x in ' ']
+    print('els espais son:')
+    print(len(espais))
 
 if __name__ == '__main__':
     main()
